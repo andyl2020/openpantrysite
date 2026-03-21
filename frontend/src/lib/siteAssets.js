@@ -10,4 +10,7 @@ export const siteImages = {
   galleryDecoratedCakes: imagePath("workshop-participants-decorated-cakes.jpg"),
   galleryHandsOn: imagePath("workshop-hands-on-session.jpg"),
   galleryCouples: imagePath("couples-photo.jpg"),
+  galleryCreativeMoment01: imagePath("gallery-creative-moment-01.jpg"),
+  galleryCreativeMoment02: imagePath("gallery-creative-moment-02.jpg"),
+  galleryCreativeMoment03: imagePath("gallery-creative-moment-03.jpg"),
 };

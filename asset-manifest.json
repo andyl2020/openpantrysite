@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/openpantrysite/static/css/main.e4e72ea9.css",
-    "main.js": "/openpantrysite/static/js/main.f82799aa.js",
+    "main.css": "/openpantrysite/static/css/main.b5c81df1.css",
+    "main.js": "/openpantrysite/static/js/main.f4ba8cfb.js",
     "index.html": "/openpantrysite/index.html",
-    "main.e4e72ea9.css.map": "/openpantrysite/static/css/main.e4e72ea9.css.map",
-    "main.f82799aa.js.map": "/openpantrysite/static/js/main.f82799aa.js.map"
+    "main.b5c81df1.css.map": "/openpantrysite/static/css/main.b5c81df1.css.map",
+    "main.f4ba8cfb.js.map": "/openpantrysite/static/js/main.f4ba8cfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4e72ea9.css",
-    "static/js/main.f82799aa.js"
+    "static/css/main.b5c81df1.css",
+    "static/js/main.f4ba8cfb.js"
   ]
 }
