@@ -75,7 +75,7 @@ const Footer = () => {
                   openpantry.ca@gmail.com
                 </a>
               </p>
-              <p className="text-gray-400">Greater Toronto Area</p>
+              <p className="text-gray-400">Metro Vancouver &amp; the Lower Mainland</p>
             </div>
           </div>
         </div>

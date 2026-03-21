@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Location</h4>
-                  <p className="text-gray-600">Serving the Greater Toronto Area</p>
+                  <p className="text-gray-600">Serving Metro Vancouver &amp; the Lower Mainland</p>
                 </div>
               </div>
             </Card>
