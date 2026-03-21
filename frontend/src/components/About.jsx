@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heart, Users, Award } from 'lucide-react';
 import { Card } from './ui/card';
+import { siteImages } from '@/lib/siteAssets';
 
 const About = () => {
   const highlights = [
@@ -58,7 +59,7 @@ const About = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/images/hero-image-patrice.jpg"
+                src={siteImages.aboutPortrait}
                 alt="Patrice - Open Pantry Founder"
                 className="w-full h-[400px] object-cover"
               />

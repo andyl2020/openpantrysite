@@ -1,27 +1,28 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
+import { siteImages } from '@/lib/siteAssets';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const galleryImages = [
     {
-      url: '/images/workshop-photo.jpg',
+      url: siteImages.galleryWorkshop,
       alt: 'Open Pantry workshop moment',
       title: 'Community Workshop'
     },
     {
-      url: '/images/workshop-participants-decorated-cakes.jpg',
+      url: siteImages.galleryDecoratedCakes,
       alt: 'Participants proudly displaying decorated cakes',
       title: 'Beautiful Creations'
     },
     {
-      url: '/images/workshop-hands-on-session.jpg',
+      url: siteImages.galleryHandsOn,
       alt: 'Hands-on cake decorating session',
       title: 'Learning Together'
     },
     {
-      url: '/images/couples-photo.jpg',
+      url: siteImages.galleryCouples,
       alt: 'Couple enjoying a cake decorating activity together',
       title: 'Creative Expression'
     }

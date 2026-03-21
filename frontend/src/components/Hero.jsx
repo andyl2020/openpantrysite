@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Cake, Sparkles } from 'lucide-react';
+import { siteImages } from '@/lib/siteAssets';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -64,7 +65,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <img
-                src="/images/workshop-group-photo-with-patrice.jpg"
+                src={siteImages.heroWorkshop}
                 alt="Open Pantry workshop with Patrice and participants"
                 className="w-full h-[500px] object-cover"
               />

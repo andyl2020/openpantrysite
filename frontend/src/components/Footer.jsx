@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
+import { siteImages } from '@/lib/siteAssets';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/images/logo.jpg"
+                src={siteImages.logo}
                 alt="Open Pantry Logo"
                 className="h-12 w-12 object-contain rounded-lg"
               />
