@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <img
-              src="https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/l1krf8u4_logo.jpg"
+              src="/images/logo.jpg"
               alt="Open Pantry Logo"
               className="h-12 w-12 object-contain"
             />

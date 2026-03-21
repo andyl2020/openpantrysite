@@ -33,24 +33,33 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Open Pantry was started by <span className="font-semibold text-[#00A5B8]">Patrice</span>, a self-taught baker inspired by her mom, who studied culinary and baking. What began in 2023 as a small creative outlet during COVID quickly grew into a cozy creative community where Patrice shares her love for cake decorating and helping others discover their creativity.
-            </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed">
-              With a <span className="font-semibold text-[#FFB5B5]">Wilton cake decorating certificate</span> and a passion for bringing people together, Patrice loves creating spaces where people can try something new and surprise themselves with what they can make.
-            </p>
-            
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Whether you're a complete beginner or looking to refine your skills, Open Pantry welcomes everyone to explore the joy of cake decorating in a fun, supportive environment.
-            </p>
+            <blockquote className="space-y-6 rounded-2xl bg-[#FFF8F5] p-8 shadow-sm">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                "I started Open Pantry in 2023 as a creative outlet and a way to
+                save for graduate school. Fast forward to today, Open Pantry has
+                quickly grown into a cozy creative community where I can share my
+                love for cake decorating and other food-themed events.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Everything I know about baking and cake decorating is thanks to my
+                mom, who taught me the basics at a young age, and Wilton Cakes,
+                where I completed their Cake Decorating Certificate back in 2013.
+                I'm excited to share my love for cakes and see everyone's
+                creativity come to life."
+              </p>
+
+              <footer className="text-base font-semibold uppercase tracking-[0.2em] text-[#00A5B8]">
+                - Patrice
+              </footer>
+            </blockquote>
           </div>
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/8x9x9qde_1%20PXL_20260131_034055861.MP.jpg"
-                alt="Workshop participants with decorated cakes"
+                src="/images/hero-image-patrice.jpg"
+                alt="Patrice - Open Pantry Founder"
                 className="w-full h-[400px] object-cover"
               />
             </div>

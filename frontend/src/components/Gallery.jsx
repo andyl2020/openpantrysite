@@ -6,23 +6,23 @@ const Gallery = () => {
 
   const galleryImages = [
     {
-      url: 'https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/egwff55q_group%20photo%20with%20patrice.jpg',
-      alt: 'Group workshop with Patrice and participants',
+      url: '/images/workshop-photo.jpg',
+      alt: 'Open Pantry workshop moment',
       title: 'Community Workshop'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/8x9x9qde_1%20PXL_20260131_034055861.MP.jpg',
+      url: '/images/workshop-participants-decorated-cakes.jpg',
       alt: 'Participants proudly displaying decorated cakes',
       title: 'Beautiful Creations'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/zc6lz6zu_2%20PXL_20251029_184657327.MP.jpg',
+      url: '/images/workshop-hands-on-session.jpg',
       alt: 'Hands-on cake decorating session',
       title: 'Learning Together'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/zu09yshp_hero%20image%20patrice.jpg',
-      alt: 'Individual cake decorating practice',
+      url: '/images/couples-photo.jpg',
+      alt: 'Couple enjoying a cake decorating activity together',
       title: 'Creative Expression'
     }
   ];
@@ -50,7 +50,7 @@ const Gallery = () => {
               <img
                 src={image.url}
                 alt={image.alt}
-                className="w-full h-80 object-cover"
+                className="w-full h-96 object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">

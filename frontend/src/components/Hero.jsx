@@ -64,8 +64,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <img
-                src="https://customer-assets.emergentagent.com/job_d2e1c9cd-4117-4e23-8dec-208e60b558d7/artifacts/zu09yshp_hero%20image%20patrice.jpg"
-                alt="Patrice - Open Pantry Founder"
+                src="/images/workshop-group-photo-with-patrice.jpg"
+                alt="Open Pantry workshop with Patrice and participants"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
