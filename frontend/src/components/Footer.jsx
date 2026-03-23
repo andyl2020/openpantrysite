@@ -1,5 +1,4 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
 import { siteImages } from '@/lib/siteAssets';
 
 const Footer = () => {
@@ -82,10 +81,16 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400 flex items-center justify-center">
-            &copy; {currentYear} Open Pantry. Made with
-            <Heart className="text-[#FFB5B5] mx-2" size={16} fill="#FFB5B5" />
-            by Patrice
+          <p className="text-gray-400">
+            &copy; {currentYear} Open Pantry. Made by{' '}
+            <a
+              href="https://linkedin.com/in/aluu"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[#00A5B8] transition-colors"
+            >
+              Andy Luu
+            </a>
           </p>
         </div>
       </div>
