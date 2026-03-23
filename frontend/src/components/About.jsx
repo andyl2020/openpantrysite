@@ -61,7 +61,7 @@ const About = () => {
               <img
                 src={siteImages.aboutPortrait}
                 alt="Patrice - Open Pantry Founder"
-                className="w-full h-[400px] md:h-[480px] object-cover md:object-top"
+                className="w-full h-[400px] md:h-[440px] object-cover md:object-top"
               />
             </div>
           </div>
